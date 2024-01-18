@@ -62,3 +62,10 @@ body {
   display: flex;
   gap: 10px;
 }
+
+@media screen and (max-width: 435px) {
+  .btn-group {
+    flex-direction: column;
+    width: 100%;
+  }
+}
