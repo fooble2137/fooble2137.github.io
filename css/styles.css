@@ -4,10 +4,22 @@
 }
 
 .info-container p {
-  color: #9e9e9e;
+  color: var(--fg-info);
   margin-bottom: 20px;
 }
 
 .redirect-container p {
-  color: #9e9e9e;
+  color: var(--fg-info);
+}
+
+.theme {
+  position: relative;
+  top: 92%;
+  left: 96%;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: var(--bg-container);
+  box-shadow: var(--shadow);
+  cursor: pointer;
 }
