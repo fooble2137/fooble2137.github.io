@@ -208,22 +208,32 @@ nav .logo {
 }
 
 .about-container img {
-    width: 100%;
-    padding: 5rem;
-    padding-bottom: 0 ;
+  width: 100%;
+  padding: 5rem;
+  padding-bottom: 0;
 }
 
 .about-container li {
-    margin: 5px 25px;
+  margin: 5px 25px;
 }
 
 .about-container div .title {
-    margin-top: 20px;
-    margin-bottom: 0;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
 .about-container div .title:first-child {
-    margin-top: 0;
+  margin-top: 0;
+}
+
+@media only screen and (max-height: 600px) {
+  .hero {
+    padding: 5rem 0;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
