@@ -236,8 +236,18 @@ nav .logo {
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-height: 600px) {
   .hero {
+    padding: 5rem 0;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+   .hero {
     max-width: 100%;
   }
 
